@@ -6,4 +6,5 @@ class Bookmark
         "http://www.google.com"
        ]
     end
+    
   end
