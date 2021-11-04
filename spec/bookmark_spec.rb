@@ -2,10 +2,18 @@ require 'bookmark'
 require 'database_helpers'
 
 describe Bookmark do
+  describe '.delete' do
+    it 'deletes the given bookmark' do
+      bookmark = Bookmark.create(title: 'Makers Academy', url: 'http://www.makersacademy.com')
+  
+      Bookmark.delete(id: bookmark.id)
+  
+      expect(Bookmark.all.length).to eq 0
+    end
+  end
+  
   describe '.all' do
     it 'returns a list of bookmarks' do
-      connection = PG.connect(dbname: 'bookmark_manager_test')
-   
       # Add the test data
       bookmark = Bookmark.create(url: "http://www.makersacademy.com", title: "Makers Academy")
       Bookmark.create(url: "http://www.destroyallsoftware.com", title: "Destroy All Software")
@@ -32,4 +40,6 @@ describe Bookmark do
       expect(bookmark.url).to eq 'http://www.example.org'
     end
   end
+
+
 end
