@@ -6,6 +6,7 @@
           1,
           1,
           1,
+          1,
           null,
           1,
           1,
@@ -62,18 +63,18 @@
           27,
           null,
           null,
+          null,
           1,
-          8,
-          8,
-          null,
-          0,
-          null,
           8,
           8,
           10,
           null,
           null,
           null,
+          null,
+          null,
+          null,
+          null,
           1,
           13,
           13,
@@ -125,6 +126,36 @@
           2,
           null,
           null,
+          null
+        ]
+      },
+      "/Users/rumen/Projects/bookmark_manager/lib/database_connection.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          4,
+          null,
+          null,
+          1,
+          1,
+          null,
+          null,
+          1,
+          9,
+          null,
+          null
+        ]
+      },
+      "/Users/rumen/Projects/bookmark_manager/database_connection_setup.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          null,
+          0,
           null
         ]
       },
@@ -213,6 +244,38 @@
           null
         ]
       },
+      "/Users/rumen/Projects/bookmark_manager/spec/database_connection_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          null,
+          null,
+          1,
+          null,
+          1,
+          null,
+          1,
+          null,
+          null,
+          null,
+          1,
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          null,
+          null,
+          null
+        ]
+      },
       "/Users/rumen/Projects/bookmark_manager/spec/features/creating_bookmarks_spec.rb": {
         "lines": [
           1,
@@ -286,6 +349,6 @@
         ]
       }
     },
-    "timestamp": 1636024885
+    "timestamp": 1636028204
   }
 }
